@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route element={<AppLayout />}>
             <Route index element={<Navigate replace to="dashbord" />} />
-            <Route path="dashbord" element={<Dashboard />} />
+            <Route path="dashboard" element={<Dashboard />} />
             <Route path="bookings" element={<Bookings />} />
             <Route path="cabins" element={<Cabins />} />
             <Route path="users" element={<Users />} />
